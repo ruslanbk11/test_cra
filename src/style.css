@@ -1,0 +1,28 @@
+.calendar_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.calendar_cell {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+}
+
+.calendar_cell__color_white {
+    background-color: white;
+}
+
+.calendar_cell__color_red {
+    background-color: red;
+}
+
+.calendar_cell__color_green {
+    background-color: green;
+}
+
+.calendar_cell__date {
+    font-size: 14px;
+}
+
